@@ -1,3 +1,5 @@
+.cache
+.bash_history
 .DS_Store
 node_modules
 sites/*
