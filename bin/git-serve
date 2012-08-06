@@ -1,2 +1,2 @@
-!/bin/sh
+#!/bin/sh
 exec git-shell -c "$SSH_ORIGINAL_COMMAND"
