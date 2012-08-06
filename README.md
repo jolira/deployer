@@ -9,6 +9,10 @@ git clone git://github.com/jolira/deployer.git .
 chmod -R og-rx .ssh
 ```
 
+```
+git remote add deployer deployer@server.jolira.com:.
+```
+
 License
 -----------------
 
