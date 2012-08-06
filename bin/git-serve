@@ -1,2 +1,3 @@
 #!/bin/sh
+echo "$SSH_ORIGINAL_COMMAND" >> /tmp/commands.log
 exec git-shell -c "$SSH_ORIGINAL_COMMAND"
