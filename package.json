@@ -1,0 +1,45 @@
+{
+    "name":"jolira-deployer",
+    "version":"0.0.1",
+    "description":"A Server for Deploying Applications to Ubuntu using Git",
+    "keywords":["deploy", "git"],
+    "contributors": [
+        "Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)"
+    ],
+    "repository":{
+        "url":"https://github.com/jolira/site-manager.git",
+        "type":"git"
+    },
+    "dependencies":{
+        "handlebars":"*",
+        "404project":"*",
+        "connect-less-jolira":"*",
+        "directory-tree-watcher":"*",
+        "express":">= 3.0.0alpha4",
+        "connect":">= 2.0.3",
+        "jolira-logger": "*",
+        "batch":"*"
+    },
+    "bin": {
+        "site-manager": "./bin/site-manager"
+    },
+    "devDependencies":{
+        "debug":"*",
+        "horaa":"*",
+        "vows":"*",
+        "jake":"*",
+        "uglify-js":"*"
+    },
+    "scripts":{
+        "test":"jake test",
+        "prepublish":"npm prune"
+    },
+    "bugs":{
+        "mail":"dev@jolira.com",
+        "url":"http://github.com/jolira/site-manager/issues"
+    },
+    "main":"server",
+    "engines":{
+        "node":">= 0.5.0 < 0.9.0"
+    }
+}
