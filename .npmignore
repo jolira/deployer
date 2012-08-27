@@ -1,6 +1,8 @@
 test
 examples
 sites
+etc
+.ssh
 .idea
 .npmignore
 .travis.yml

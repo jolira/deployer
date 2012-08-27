@@ -11,24 +11,17 @@
         "type":"git"
     },
     "dependencies":{
-        "handlebars":"*",
-        "404project":"*",
-        "connect-less-jolira":"*",
-        "directory-tree-watcher":"*",
-        "express":">= 3.0.0alpha4",
-        "connect":">= 2.0.3",
-        "jolira-logger": "*",
-        "batch":"*"
+        "npm":"*",
+        "jolira-logger": "*"
     },
     "bin": {
-        "site-manager": "./bin/site-manager"
+        "deploy": "bin/deployer.js"
     },
     "devDependencies":{
         "debug":"*",
         "horaa":"*",
         "vows":"*",
-        "jake":"*",
-        "uglify-js":"*"
+        "jake":"*"
     },
     "scripts":{
         "test":"jake test",
