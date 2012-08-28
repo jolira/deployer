@@ -12,6 +12,7 @@
     },
     "dependencies":{
         "npm":"*",
+        "server-config":"*",
         "jolira-logger": "*"
     },
     "bin": {
