@@ -13,7 +13,8 @@
     "dependencies":{
         "npm":"*",
         "server-config":"*",
-        "jolira-logger": "*"
+        "jolira-logger": "*",
+        "mdns":"*"
     },
     "bin": {
         "deploy": "bin/deployer.js"
