@@ -11,6 +11,7 @@
         "type":"git"
     },
     "dependencies":{
+        "batch":"*",
         "jolira-logger": "*",
         "mdns":"*"
     },
@@ -18,7 +19,6 @@
         "deploy": "bin/deployer.js"
     },
     "devDependencies":{
-        "batch":"*",
         "debug":"*",
         "horaa":"*",
         "vows":"*",
