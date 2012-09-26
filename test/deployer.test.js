@@ -33,7 +33,12 @@
                         });
                     }, 10);
                 }, function(logger, app, cb) {
+                    logger.info("provisioning app", app);
                     assert.equal(app, "app");
+
+                    return cb();
+                }, function(logger, config, cb) {
+                    logger.info("running config", config);
 
                     return cb();
                 });
