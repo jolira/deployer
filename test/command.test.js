@@ -23,9 +23,13 @@
                         args:["-lah"]
                     },
                     {
+                        cmd:"echo",
+                        args:["${ENV_VAR}"]
+                    },
+                    {
                         cmd:"pwd"
                     }
-                ], this.callback);
+                ], { "ENV_VAR":"jolira" }, this.callback);
             },
             'check results':function (content) {
                 assert.isUndefined(content);

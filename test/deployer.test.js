@@ -15,7 +15,7 @@
             return cb(new Error("unexpected file name", file));
         }
         return cb(undefined, JSON.stringify({
-            app: "app",
+            repository: "repository",
             env: {
                 PORT: 3000
             }
@@ -32,9 +32,9 @@
                             "user-data": "file://home/jfk/myapp.json"
                         });
                     }, 10);
-                }, function(logger, app, cb) {
-                    logger.info("provisioning app", app);
-                    assert.equal(app, "app");
+                }, function(logger, repository, cb) {
+                    logger.info("provisioning app from", repository);
+                    assert.equal(repository, "repository");
 
                     return cb();
                 }, function(logger, config, cb) {
