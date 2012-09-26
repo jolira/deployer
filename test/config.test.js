@@ -79,8 +79,6 @@
         };
     });
 
-
-
     // Create a Test Suite
     vows.describe('configure').addBatch({
         'configure from file':{
