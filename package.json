@@ -1,8 +1,8 @@
 {
     "name":"jolira-deployer",
-    "version":"0.0.1",
-    "description":"A Server for Deploying Applications to Ubuntu using Git",
-    "keywords":["deploy", "git"],
+    "version":"0.1.0",
+    "description":"Auto-deploy application on S3",
+    "keywords":["deploy", "s3", "aws"],
     "contributors": [
         "Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)"
     ],
