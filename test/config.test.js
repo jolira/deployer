@@ -13,10 +13,6 @@
         testFile = false;
 
     fsHorra.hijack("readFile", function (file, encoding, cb) {
-        if (!file.match(/\.deployer\.json/)) {
-            return readFile.apply(file, encoding, cb);
-        }
-
         if (!testFile) {
             return cb(new Error("not returning a file"));
         }

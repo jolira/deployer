@@ -3,5 +3,9 @@
 
     var deployer = require('./lib/deployer');
 
-    deployer();
+    return deployer(function(err) {
+        if (err) {
+            console.error("deploy failed", err);
+        }
+    });
 })();
