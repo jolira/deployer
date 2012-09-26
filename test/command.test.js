@@ -11,13 +11,21 @@
         'ls -lah':{
             topic:function () {
                 command({
-                    info:function() {
+                    info:function () {
                         console.log.apply(null, arguments);
                     },
-                    error:function() {
+                    error:function () {
                         console.error.apply(null, arguments);
                     }
-                }, "ls", ["-lah"], this.callback);
+                }, [
+                    {
+                        cmd:"ls",
+                        args:["-lah"]
+                    },
+                    {
+                        cmd:"pwd"
+                    }
+                ], this.callback);
             },
             'check results':function (content) {
                 assert.isUndefined(content);
