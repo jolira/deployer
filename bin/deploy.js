@@ -1,5 +1,8 @@
 #!/usr/bin/env node
+(function () {
+    "use strict";
 
-var deploy = require("../lib/deployer");
+    var deploy = require("../lib/deployer");
 
-deploy();
+    deploy();
+})();

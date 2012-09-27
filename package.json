@@ -16,7 +16,8 @@
         "mdns":"*"
     },
     "bin": {
-        "deploy": "bin/deployer.js"
+        "deploy": "bin/deployer.js",
+        "provision": "bin/provision.js"
     },
     "devDependencies":{
         "debug":"*",
