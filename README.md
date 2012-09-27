@@ -1,6 +1,11 @@
 deployer [<img src="https://secure.travis-ci.org/jolira/deployer.png" />](http://travis-ci.org/#!/jolira/deployer)
 ========================================
 
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+cd /tmp
+git clone git@github.com:MensWearhouse/tailorapp.git
+
 
 ```bash
 sudo adduser --system --home /var/deployer --disabled-password --shell /bin/bash deployer

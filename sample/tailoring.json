@@ -1,0 +1,10 @@
+{
+    "repository":"git@github.com:MensWearhouse/tailorapp.git",
+    "command":{
+        "cmd":"./node_modules/site-manager/bin/site-manager",
+        "args":[
+            "--watch-dirs=false",
+            "."
+        ]
+    }
+}

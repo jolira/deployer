@@ -10,7 +10,7 @@ add-apt-repository -y ppa:chris-lea/node.js
 apt-get update
 apt-get -y install nodejs-dev npm git build-essential
 apt-get -y install libavahi-compat-libdnssd-dev libexpat1-dev
-adduser --system --no-create-home --disabled-password deployer
+adduser --system --disabled-password --shell /bin/bash --home /var/lib/deployer deployer
 cat << EOF > /etc/init/deployer.conf
 # start the deployer
 
