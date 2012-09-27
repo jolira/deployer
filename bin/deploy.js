@@ -2,7 +2,11 @@
 (function () {
     "use strict";
 
-    var deploy = require("../lib/deployer");
+    var deployer = require('../lib/deployer');
 
-    deploy();
+    return deployer(function(err) {
+        if (err) {
+            console.error("deploy failed", err);
+        }
+    });
 })();
