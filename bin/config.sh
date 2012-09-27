@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [[ $EUID -ne 0 ]]; then
+if [ $EUID -ne 0 ]; then
    echo "This script must be run as root" 1>&2
    exit 1
 fi
@@ -16,8 +16,8 @@ cat << EOF > /etc/init/deployer.conf
 
 pre-start script
     rm -rf /var/run/deployer
-    mkdir -p rm -rf /var/run/deployer
-    chown deployer rm -rf /var/run/deployer
+    mkdir -p /var/run/deployer
+    chown deployer /var/run/deployer
 end script
 
 start on runlevel [2345]
