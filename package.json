@@ -16,6 +16,7 @@
         "mdns":"*"
     },
     "bin": {
+        "install-deployer": "bin/install",
         "deploy": "bin/deployer.js",
         "provision": "bin/provision.js"
     },
