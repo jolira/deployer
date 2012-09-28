@@ -1,6 +1,6 @@
 {
     "name":"jolira-deployer",
-    "version":"0.1.7",
+    "version":"0.1.11",
     "description":"Auto-deploy application on S3",
     "keywords":["deploy", "s3", "aws"],
     "contributors": [
@@ -16,6 +16,7 @@
         "mdns":"*"
     },
     "bin": {
+        "deploy-log": "bin/deploy-log.js",
         "config-deployer": "bin/config.sh",
         "deployer": "bin/deploy.js",
         "provision": "bin/provision.js"
