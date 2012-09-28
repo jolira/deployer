@@ -6,5 +6,8 @@
             "--watch-dirs=false",
             "."
         ]
+    },
+    "env": {
+        "NODE_ENV": "production"
     }
 }
