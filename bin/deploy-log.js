@@ -5,14 +5,14 @@
     var config = require("../lib/config"),
         message = process.argv[2];
 
-    return cfg(function (err, config) {
+    return config(function (err, config) {
         if (err) {
-            return cb(err);
+            return console.error("logging failed", err);
         }
 
         var logger = require("jolira-logger")(config);
 
-        logger.info(mesage);
+        logger.info(message);
 
     });
 })(process, console);
