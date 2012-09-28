@@ -1,6 +1,6 @@
 {
     "name":"jolira-deployer",
-    "version":"0.2.0",
+    "version":"0.2.1",
     "description":"Auto-deploy application on S3",
     "keywords":["deploy", "s3", "aws"],
     "contributors": [
