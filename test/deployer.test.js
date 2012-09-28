@@ -52,7 +52,7 @@
                 deployer(this.callback, function (cb) {
                     setTimeout(function () {
                         cb(undefined, {
-                            "user-data":"file://home/jfk/myapp.json"
+                            "manifest":"file://home/jfk/myapp.json"
                         });
                     }, 10);
                 }, function (logger, repository, cb) {
@@ -75,7 +75,7 @@
                 deployer(this.callback, function (cb) {
                     setTimeout(function () {
                         cb(undefined, {
-                            "user-data":"s3://joachimkainz/config/testapp.json",
+                            "manifest":"s3://joachimkainz/config/testapp.json",
                             "aws-access-key-id":"AKIAJAVD6PLCIAPQRQTA",
                             "aws-secret-access-key":"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",
                             "aws-region":"us-east-1",

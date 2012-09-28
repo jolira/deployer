@@ -104,7 +104,7 @@
                     assert.equal(content['aws-region'], "us-west-1");
                     assert.equal(content['local-ipv4'], "192.168.1.10");
                     assert.equal(content['aws-access-key-id'], "AccessKeyId");
-                    assert.equal(content['user-data'], "user-data");
+                    assert.equal(content['manifest'], "user-data");
                 }
             }
         }
