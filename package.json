@@ -13,8 +13,7 @@
     "dependencies":{
         "batch":"*",
         "ec2-user-data":"*",
-        "jolira-logger": "*",
-        "mdns":"*"
+        "jolira-logger": "*"
     },
     "bin": {
         "deploy-log": "bin/deploy-log.js",
