@@ -1,8 +1,8 @@
 {
     "name":"jolira-deployer",
-    "version":"0.2.3",
+    "version":"0.3.0",
     "description":"Auto-deploy application on S3",
-    "keywords":["deploy", "s3", "aws"],
+    "keywords":["deploy", "s3", "aws", "provision"],
     "contributors": [
         "Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)"
     ],
@@ -12,6 +12,7 @@
     },
     "dependencies":{
         "batch":"*",
+        "ec2-user-data":"*",
         "jolira-logger": "*",
         "mdns":"*"
     },

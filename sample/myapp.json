@@ -1,5 +1,5 @@
 {
-    "repository":"git@github.com:MensWearhouse/tailorapp.git",
+    "repository":"git@github.com:jolira/myapp.git",
     "command":{
         "cmd":"./node_modules/site-manager/bin/site-manager",
         "args":[

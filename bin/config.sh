@@ -25,3 +25,5 @@ stop on runlevel [06]
 
 exec start-stop-daemon --start --quiet --chuid deployer --chdir /var/run/deployer --exec /usr/bin/deployer
 EOF
+
+npm install -g jolira-deployer
