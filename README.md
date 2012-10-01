@@ -72,7 +72,8 @@ command line to be used to start the application. Here is an example for a manif
             "."
         ]
     }
-}```
+}
+```
 
 The manifest can be stored in an S3-bucket, on an http-server or on the local file-system.
 
